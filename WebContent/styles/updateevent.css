@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	font-family: sans-serif;
+}
+
+/*-----------------------header section----------------------*/
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	padding: 0 !important;
+}
+
+.navbar-brand img{
+	height: 60px;
+	padding-left: 20px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+
+
+
+/*-----------------------sidebar section----------------------*/
+
+#customer{
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+.side{
+	text-align: center;
+}
+
+.sidebar{
+	padding: 20px;
+	margin-top: 25%;
+	margin-bottom: 25%;	
+}
+
+#customer .btn-primary{
+	box-shadow: none; 
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	font-weight: 600;
+	width: 200px;
+}
+
+#customer .btn-primary:hover{
+	background-image: linear-gradient(to right, #5f1782, #a517ba);
+}
+
+
+/*-----------------------create event section----------------------*/
+
+.create-event h4{
+	font-weight: 600;
+	padding: 10px;
+}
+
+.create-event{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.input1{
+	border: 0;
+	background: none;
+	text-align: center;
+	width: 90%;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	font-weight: 600;
+}
+
+.input2{
+	
+}
+
+.create-event input[type="text"],[type="time"],[type="date"], textarea, select{
+	border: 0;
+	background: none;
+	
+	text-align: center;
+	border: 2px solid #5f1782;
+	padding: 14px 10px;
+	width: 90%;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	font-weight: 600;
+}
+
+.create-event input[type="submit"]{
+	border: 0;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	display: block;
+	margin-left: 68%;
+	text-align: center;
+	padding: 14px 40px;
+	outline: none;
+	color: #fff;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.create-event input[type="submit"]:hover{
+	background-image: linear-gradient(to right, #5f1782, #a517ba);
+}
+
+
+
+
+
+
+
+
+/*-----------------------footer section----------------------*/
+
+#footer{
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	color: #fff;
+
+}
+
+
+.footer-box{
+	padding: 20px;
+
+}
+
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .form-control{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
+
+.footer-box .btn-primary{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .btn-primary:hover{
+	background-image: linear-gradient(to right, #5f1782,  #a517ba);
+}
+
+.footer-box .btn-primary:hover{
+	background-image: linear-gradient(to right, #5f1782,  #a517ba);
+}
+
+hr{
+	background-color: #fff;
+}
+
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+

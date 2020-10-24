@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	font-family: sans-serif;
+}
+
+/*-----------------------header section----------------------*/
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	padding: 0 !important;
+}
+
+.navbar-brand img{
+	height: 60px;
+	padding-left: 20px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+
+
+
+/*-----------------------sidebar section----------------------*/
+
+#customer{
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+.side{
+	text-align: center;
+}
+
+.sidebar{
+	padding: 20px;
+	margin-top: 25%;
+	margin-bottom: 25%;	
+}
+
+#customer .btn-primary{
+	box-shadow: none; 
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	font-weight: 600;
+	width: 200px;
+}
+
+#customer .btn-primary:hover{
+	background-image: linear-gradient(to right, #5f1782, #a517ba);
+}
+
+
+/*-----------------------recent events section----------------------*/
+
+.recent-events h4{
+	font-weight: 600;
+	padding: 10px;
+}
+
+.recent-events{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.recent-events table{
+	font-weight: 600;
+	width: 100%;
+}
+
+.recent-events th{
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.recent-events .col1{
+	width: 30%;
+}
+
+.recent-events .col2{
+	width: 70%;
+}
+
+.ticketNo{
+	width: 25%;
+	text-align: center;
+}
+
+.event-title{
+	font-weight: 600;
+	text-align: center;
+	font-size: 18px;
+}
+
+tr:hover td {
+	color: black;
+	background-image: linear-gradient(to right, #C7A6FC, #BA8FFF);
+}
+
+table{
+	text-align: center;
+	background-image: linear-gradient(to right, #F9F8FF, #EBE7FF);
+}
+
+
+
+/*-----------------------footer section----------------------*/
+
+#footer{
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+	color: #fff;
+
+}
+
+
+.footer-box{
+	padding: 20px;
+
+}
+
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .form-control{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
+
+.footer-box .btn-primary{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .btn-primary:hover{
+	background-image: linear-gradient(to right, #5f1782,  #a517ba);
+}
+
+.footer-box .btn-primary:hover{
+	background-image: linear-gradient(to right, #5f1782,  #a517ba);
+}
+
+hr{
+	background-color: #fff;
+}
+
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
